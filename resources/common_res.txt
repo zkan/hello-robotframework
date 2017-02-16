@@ -1,6 +1,5 @@
 *** Settings ***
 Library          Selenium2Library
-Resource         common_res.txt
 
 
 *** Variables ***
