@@ -1,1 +1,1 @@
-export PATH=$PATH:/vagrant/webdrivers/
+export PATH=$PATH:/vagrant/webdrivers/linux/
