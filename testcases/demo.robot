@@ -7,10 +7,6 @@ Test Teardown   Close Browser
 ${HOMEPAGE}    http://www.google.com
 ${BROWSER}     chrome
 
-*** Test Cases ***
-Visit my personal site and check content
-    Go to my personal site and check results    http://www.kanouivirach.com    Barcamp
-
 *** Keywords ***
 Go to my personal site and check results
   [Arguments]    ${site}    ${content}
@@ -19,3 +15,7 @@ Go to my personal site and check results
 
 Go to homepage
     Open Browser    ${HOMEPAGE}    ${BROWSER}
+
+*** Test Cases ***
+Visit my personal site and check content
+    Go to my personal site and check results    http://www.kanouivirach.com    Barcamp
