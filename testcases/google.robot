@@ -1,13 +1,17 @@
 *** Settings ***
-Library         Selenium2Library
+Resource         ../resources/common_res.txt
+Test Teardown    Close Browser
+
 
 *** Variables ***
 ${URLwelcome}    https://www.google.com
 ${BROWSER}       firefox
 
+
 *** Keywords ***
 Open Google
     Open Browser    ${URLwelcome}    ${BROWSER}
+
 
 *** Test Cases ***
 Google for robot framework

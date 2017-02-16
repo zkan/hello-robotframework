@@ -1,0 +1,7 @@
+*** Settings ***
+Library          Selenium2Library
+Resource         common_res.txt
+
+
+*** Variables ***
+${SERVER}    127.0.0.1:9090
