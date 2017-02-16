@@ -94,3 +94,9 @@ ENV/
 # XML and HTML (robot reports)
 *.xml
 *.html
+
+# Mac files
+.DS_Store
+
+# Vagrant
+.vagrant
