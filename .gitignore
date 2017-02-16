@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Vim
+*.swp
+
+# XML and HTML (robot reports)
+*.xml
+*.html
