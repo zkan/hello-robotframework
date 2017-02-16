@@ -7,9 +7,10 @@
 3. Install the required packages by `pip install -r requirements.txt`.
 4. Run `robot testcases` to execute all test cases in the folder `testcases`.
 
-## ChromeDriver
+## WebDriver
 
-ChromeDriver is a WebDriver for Chrome that is an open source tool for automated testing of webapps across many browsers.
+WebDriver is a tool for test automation for Web application.
 
-Download [here](https://chromedriver.storage.googleapis.com/index.html?path=2.27/) (version 2.27).
+* **ChromeDriver** is for Chrome. Download [here](https://chromedriver.storage.googleapis.com/index.html?path=2.27/) (version 2.27).
+* **geckodriver** is for Firefox. Download [here](https://github.com/mozilla/geckodriver/releases/tag/v0.14.0) (version 0.14.0).
 
