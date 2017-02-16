@@ -14,3 +14,6 @@ WebDriver is a tool for test automation for Web application.
 * **ChromeDriver** is for Chrome. Download [here](https://chromedriver.storage.googleapis.com/index.html?path=2.27/) (version 2.27).
 * **geckodriver** is for Firefox. Download [here](https://github.com/mozilla/geckodriver/releases/tag/v0.14.0) (version 0.14.0).
 
+## Readings
+
+* [Robot Framework Best Practices](https://github.com/idumpling/robotx/blob/master/docs/ROBOT_BEST_PRACTICE.md) by @idumpling
