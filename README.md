@@ -28,5 +28,5 @@ WebDriver is a tool for test automation for Web application.
 
 ## Readings
 
-* [Robot Framework Best Practices](https://github.com/idumpling/robotx/blob/master/docs/ROBOT_BEST_PRACTICE.md) by @idumpling
+* [Robot Framework Best Practices](https://github.com/idumpling/robotx/blob/master/docs/ROBOT_BEST_PRACTICE.md)
 * [Selenium2Library for Robot Framework](http://robotframework.org/Selenium2Library/Selenium2Library.html)
