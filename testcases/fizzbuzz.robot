@@ -16,11 +16,12 @@ Go to homepage
 
 *** Test Cases ***
 Go to app and see the initial page
-    Page Should Contain    Input:
-    Page Should Contain    Result: ?
+    Page Should Contain              Input:
+    Page Should Contain              Result: ?
     Page Should Contain Textfield    name=number
+    Page Should Contain Button       Submit
 
 Go to app and input 3 then should see Fizz
-    Input Text    name=number    3
+    Input Text             name=number    3
     Submit Form
     Page Should Contain    Result: Fizz
