@@ -100,3 +100,6 @@ ENV/
 
 # Vagrant
 .vagrant
+
+# Screenshot
+*.png
