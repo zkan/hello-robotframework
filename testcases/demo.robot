@@ -5,7 +5,7 @@ Test Teardown    Close Browser
 
 
 *** Variables ***
-${HOMEPAGE}    http://www.google.com
+${HOMEPAGE}    https://www.google.com
 ${BROWSER}     chrome
 
 
@@ -13,7 +13,7 @@ ${BROWSER}     chrome
 Go to my personal site and check results
   [Arguments]    ${site}    ${content}
   Go To    ${site}
-  Wait Until Page Contains    ${content}
+  Page Should Contain    ${content}
 
 Go to homepage
     Open Browser    ${HOMEPAGE}    ${BROWSER}
@@ -21,4 +21,4 @@ Go to homepage
 
 *** Test Cases ***
 Visit my personal site and check content
-    Go to my personal site and check results    http://www.kanouivirach.com    Barcamp
+    Go to my personal site and check results    https://www.kanouivirach.com    Pronto Tools
