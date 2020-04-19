@@ -5,7 +5,7 @@ Test Teardown    Close Browser
 
 *** Variables ***
 ${URLwelcome}    https://www.google.com
-${BROWSER}       firefox
+${BROWSER}       chrome
 
 
 *** Keywords ***
@@ -16,5 +16,6 @@ Open Google
 *** Test Cases ***
 Google for robot framework
     Open Google
-    Input Text    q    robot framework
+    Input Text    q    asian institute of technology
     Submit Form
+    Page Should Contain    Pronto
